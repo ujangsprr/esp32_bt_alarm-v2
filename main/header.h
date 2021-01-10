@@ -88,7 +88,7 @@ static char strftime_buf[32], strftime_set[32], target[48];
 int val_lm, val_opamp, counter = 0;
 float mv_lm, mv_opamp, cel, speed;
 bool Alarm = 0, On, EN = 1;
-char *pesan = "aaaaaaaa";
+char *pesan = "";
 char text[20], set_time[9] = DEFAULT_TIME, selection[5], lamp[5] = "OFF";
 
 #endif
