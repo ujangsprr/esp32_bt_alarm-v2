@@ -44,7 +44,7 @@
 
 #define SPP_TAG "SPP_ACCEPTOR"
 #define SPP_SERVER_NAME "SPP_SERVER"
-#define DEVICE_NAME "INI-ESPKU"
+#define DEVICE_NAME "Smart Home"
 
 #define SPP_SHOW_DATA 1
 #define SPP_SHOW_SPEED 1
@@ -89,6 +89,6 @@ int val_lm, val_opamp, counter = 0;
 float mv_lm, mv_opamp, cel, speed;
 bool Alarm = 0, On, EN = 1;
 char *pesan = "aaaaaaaa";
-char text[20], set_time[9] = DEFAULT_TIME, selection[5], lamp[5];
+char text[20], set_time[9] = DEFAULT_TIME, selection[5], lamp[5] = "OFF";
 
 #endif

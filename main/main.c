@@ -54,11 +54,12 @@ static void set_bt(void)
             Alarm = 0;
         }
     }
+    else if (!strcmp(text,"6"))
+        pesan = set_time;
 
     if ((!strcmp(selection,"::")) && (strlen(text) == 8))
         strcpy(set_time, text);
-    
-    pesan = set_time;
+
 }
 
 static void cetak(void)
@@ -67,8 +68,8 @@ static void cetak(void)
     printf("LM35  -->  Raw : %d   Voltage : %.2f mv\n", val_lm, mv_lm);
     printf("LM741 -->  Raw : %d   Voltage : %.2f mv\n", val_opamp, mv_opamp);
     printf("Temp  -->  %.2f°C    Speed   : %.2f\n", cel, speed);
-    printf("Alarm -->  %s  (%d)\n\n", set_time, Alarm);
-    printf("Lamp  -->  %s", lamp);
+    printf("Alarm -->  %s  (%d)\n", set_time, Alarm);
+    printf("Lamp  -->  %s\n\n", lamp);
 }
 
 static void run_program(void)
