@@ -11,7 +11,7 @@ Project :
 
 Author      : Ujang Supriyadi<br/>
 Email       : ujang.supriyadi568@gmail.com<br/>
-Last Edited : 6/1/2021
+Last Edited : 11/01/2021
 
 How to build this project
 1. Open folder location `idf.py build`
