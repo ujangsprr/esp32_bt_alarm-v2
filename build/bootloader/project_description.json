@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/ujang/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/ujang/PENS/esp32_project/build/bootloader",
+    "config_file":        "/home/ujang/PENS/esp32_project/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.3-dev-1901-g178b122c1-dirty",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/ujang/esp/esp-idf/components/efuse/Kconfig;/home/ujang/esp/esp-idf/components/esp32/Kconfig;/home/ujang/esp/esp-idf/components/esp_common/Kconfig;/home/ujang/esp/esp-idf/components/log/Kconfig;/home/ujang/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/ujang/esp/esp-idf/components/bootloader/Kconfig.projbuild;/home/ujang/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/home/ujang/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esptool_py", "hal", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/ujang/esp/esp-idf/components/bootloader", "/home/ujang/esp/esp-idf/components/bootloader_support", "/home/ujang/esp/esp-idf/components/efuse", "/home/ujang/esp/esp-idf/components/esp32", "/home/ujang/esp/esp-idf/components/esp_common", "/home/ujang/esp/esp-idf/components/esp_hw_support", "/home/ujang/esp/esp-idf/components/esp_rom", "/home/ujang/esp/esp-idf/components/esptool_py", "/home/ujang/esp/esp-idf/components/hal", "/home/ujang/esp/esp-idf/components/log", "/home/ujang/esp/esp-idf/components/bootloader/subproject/main", "/home/ujang/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/ujang/esp/esp-idf/components/partition_table", "/home/ujang/esp/esp-idf/components/soc", "/home/ujang/esp/esp-idf/components/spi_flash", "/home/ujang/esp/esp-idf/components/xtensa", "" ]
+}
