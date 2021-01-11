@@ -38,7 +38,7 @@
 #define BUZZER 5
 #define GPIO_PWM0A_OUT 15
 
-#define WIFI_SSID "INI-HPKU"
+#define WIFI_SSID "Smart Home"
 #define WIFI_PASS "12345678"
 #define DEFAULT_TIME "07:00:00"
 
